@@ -1,0 +1,15 @@
+{
+	"links" : [
+		{
+			"glassfrog"  : "/public/images/glassfrogicon.png" 
+		},
+		{
+			"mushroom"   : "/public/images/musroonicon.png"
+		},
+		{
+			"confluence" : "public/images/confluenceicon.png"
+		}
+
+	]
+	
+}

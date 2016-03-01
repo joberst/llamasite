@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head><% include partials/template/head.ejs %></head>
+  
+  <body>
+    
+    <div id="container">
+    
+      <% include partials/template/nav.ejs %>
+    	<% include partials/template/header.ejs %>
+
+    	<section class="layout">
+    		
+        <div class="primary">
+          <% include partials/content/whatisfocal.ejs %>
+          <% include partials/content/whatweoffer.ejs %>
+          <% include partials/content/everyonewelcome.ejs %>
+          <% include partials/content/whyjoin.ejs %>
+          <% include partials/content/quote.ejs %>
+          <% include partials/content/nextmeetup.ejs %>
+
+    		</div><!--primary-->
+
+    	<aside class="secondary">
+    			
+    	</aside><!--secondary-->
+    	
+      </section><!--layout-->
+      
+      <% include partials/template/jsdefault.ejs %>
+      <% include partials/template/footer.ejs %>
+
+    </div><!--container-->
+  
+  </body>
+  
+  
+</html>
+
+
+
+
