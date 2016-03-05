@@ -644,7 +644,7 @@ footer a:hover {
 		padding: 0px 30px;
 	}
 	section.everyonewelcome article {
-		padding: 75% 20px 0px 20px;
+		padding: 75% 20px 1% 20px;
 		background-size: 425px;
 		background-position: center 10%;
 		min-height: 180px;
@@ -696,7 +696,61 @@ footer a:hover {
 		padding: 20px 15px;
 		background-color: #122232;
 	}
+	/*all ul elements in nav*/
+	nav ul,
+	nav ul ul,
+	nav ul ul ul { 
+		display: block;
+		position: static;
+	}
+	/*top-level ul*/
+	nav > ul {
+		padding: 0;
+	}
+	/*top-level li's*/
+	nav > ul > li {
+		float: none;
+		margin-top: 25px;
+	}
+	nav ul li:hover {
+		background: none;
+	}
+	/*create "mobile" nav style*/
+	nav ul li a {
+		width: auto;
+		display: block;
+		margin: 8px 10px;
+		padding: 8px 15px;
+		border: 1px solid rgba(255, 255, 255, .25);
+	}
+	/*add transparent white hover color*/
+	nav ul li a:hover {
+		background-color: rgba(255, 255, 255, .2);
+	}
+	/*remove backgroung-properties*/
+	nav ul ul {
+		background: none;
+	}
+	/*indent submenus*/
+	nav ul ul li a {
+		margin-left: 30px;
+	}
+	/*indent submenus*/
+	nav ul ul ul li a {
+		margin-left: 60px;
+	}
+	/*remove triangles*/
+	nav a[aria-haspopup="true"]:after {
+		display: none;
+	}
+	footer div.content {
+		display: block;
+		margin-top: 15px;
 
+	}
+	footer div.content a {
+		margin: 0px 20px 0px 0px;
+	}
 }
 
 
