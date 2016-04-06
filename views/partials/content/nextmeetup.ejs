@@ -1,8 +1,19 @@
-<aside class="nextmeetup">
+<section class="main">
 	<h1>Our Next Meetup</h1>
 
-	<p>Our next meetup is ... insert ejs javascript variable here, enable it to text update!
-	</p>
-	
+	<aside class=meetup>
+		<p><%= appdata.meeting.date %> at <%= appdata.meeting.time %></p>
+		<p><%= appdata.meeting.location %></p>
+	</aside>
+
+	<aside class=meetup>
+		<p><a href="mailto:ithelpdesk@zappos.com?cc=joberst@zappos.com&subject=FOCAL!&body=Hello,%20please%20invite%20me%20to%20the%20next%20meetup%20and%20add%20me%20to%20the%20DL%20to%20keep%20me%20in%20the%20loop." target="_top"><img src="../../images/click_here.png"></a></p> 
+		<p id="smallscreenhide">To receive an invite and stay in the loop!</p>
+		<p id="smallscreenshow">Click the button above to receive an invite and stay in the loop!</p>
+	</aside>
+
+	<aside class=meetup>
+		<p class="fontwrap" id="smallscreenhide">Bring your own laptop or inquire about a loaner!</p>
+	</aside>
 	
 </aside>

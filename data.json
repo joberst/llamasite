@@ -1,15 +1,21 @@
 {
-	"links" : [
-		{
-			"glassfrog"  : "/public/images/glassfrogicon.png" 
-		},
-		{
-			"mushroom"   : "/public/images/musroonicon.png"
-		},
-		{
-			"confluence" : "public/images/confluenceicon.png"
-		}
-
-	]
-	
+	"social" : [{
+			"name" : "glassfrog",
+			"img"  : "images/glassfrogicon.png",
+			"url"  : "https://glassfrog.holacracy.org/circles/5991" 
+		},{
+			"name" : "confluence",
+			"img"  : "images/confluenceicon.png",
+			"url"  : "https://confluence.zappos.net/display/PGL/FOCAL%3A+Fellowship+of+Collaborative+Accelerated+Learning"
+		},{
+			"name" : "mushroom",
+			"img" : "images/mushroomicon.png",
+			"url"  : "#"
+		}],
+		
+	"meeting" : {
+		"date": "Tuesday Afternoons",
+		"time": "3-4pm",
+		"location": "Room: A02-C04"
+	}
 }

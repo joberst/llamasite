@@ -36,7 +36,12 @@ router.get('/blogs', function(req, res, next) {
   });
 });
 
-
+/* GET Blogs page. */
+router.get('/whoweare', function(req, res, next) {
+  res.render('whoweare', { 
+    title: 'Who We Are' 
+  });
+});
 
 
 module.exports = router;
