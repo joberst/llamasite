@@ -17,7 +17,6 @@ January 24th, 2016
 /*-------------------------------------------
 1. Global Styles
 --------------------------------------------*/
-
 body {
 	margin: auto;
   	padding: 50px;
@@ -28,9 +27,7 @@ body {
   	color: #555; /*medium gray*/
   	margin: 0;
   	padding: 0;
-
 }
-
 #container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -38,43 +35,36 @@ body {
 }
 
 /* Text */
-
 h1 {
 	margin: .5em 0 .8em 0;
 	font-size: 2.7em;
 	font-weight: 700;
 }
-
 h2 {
 	margin: 0 0 .5em 0;
 	font-size: 1.6em;
 	font-weight: 700;
 	line-height: 1.1em;
 }
-
 h3 {
 	margin: 0 0 .5em 0;
 	font-size: 1.3em;
 	font-weight: 700;
 }
-
 h3 {
 	margin: 0 0 1.5em 0;
 	font-size: 1em;
 	font-weight: 700;
 }
-
 p {
 	margin: 0 0 1em 0;
 }
-
 a {
 	color: #007eff;
 }
 a:visited {
 	color: #65b1ff;
 }
-
 a.button {
 	font-size: 1.2em;
 	text-decoration: none; /* remove underline*/
@@ -100,28 +90,22 @@ nav {
 	width: 100%;
 	z-index: 1
 }
-
 nav:after {
 	content: ''; 
 	display: block;
 	clear: both;
 }
-
 nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
 nav ul li:hover {
 	background-color: #122232; /*deep space blue*/
-	
 }
-
 nav ul li:hover > ul {
 	display: block;
 }
-
 nav ul li a {
 	display: block;
 	color: white;
@@ -129,7 +113,6 @@ nav ul li a {
 	text-decoration: none;
 	width: 125px; /*submenus*/
 	position: relative;
-
 }
 nav ul li a:visited {
 	color: #fff;
@@ -137,19 +120,15 @@ nav ul li a:visited {
 nav ul li a:hover {
 	background-color: #1a4276; /*brighter blue*/
 }
-
-
 nav ul ul {
 	position: absolute; /*nav ignore height of submenu items*/
 	top: 100%;
 	background-color: #122232; /*static submenu item color*/
 	display: none;
 }
-
 nav ul ul li {
 	position: relative; /*position in relation to parent*/
 }
-
 nav ul ul ul {
 	left: 100%;
 	top: 0px;
@@ -162,11 +141,9 @@ nav ul ul ul {
 nav > ul {
 	padding-left: 200px;
 }
-
 nav > ul > li{
 	float: left;
 }
-
 nav > ul > li > a {
 		width: auto;
 		padding: 10px 29px 15px 20px;
@@ -197,14 +174,12 @@ nav > ul > li > a[aria-haspopup="true"]:after {
 	top: auto;
 }
 
-
 /*header*/
 header {
 	height: 650px;
 	background: #fff url(../images/spaceyllama-650.png) no-repeat center bottom; 
 	position: relative;
 }
-
 header a.logo {
 	position: absolute; /*position in relation to header*/
 	display: block;
@@ -216,18 +191,15 @@ header a.logo {
 	left: 20px; 
 	z-index: 2
 }
-
 header a.logo span {
 	display: none; /*hide html text*/
 }
-
 header div.hero {
 	position: absolute;
 	width: 42%;
 	top: 185px;
 	left: 58%;
 }
-
 header div.hero h1 {
 	line-height: 1em;
 	margin: 0 0 30px 0;
@@ -242,7 +214,6 @@ header div.hero h1 {
 /*all sections*/
 section { 
 	padding: 0 30px;
-
 } 
 /*pseudo html element*/
 section:after {
@@ -257,7 +228,6 @@ section.main {
 	margin-bottom: 30px;
 	padding: 0;
 }
-
 section p#hover {
 	font-size: 1.2em;
 	border: 1px solid #000;
@@ -266,16 +236,13 @@ section p#hover {
 	border-radius: 3px;
 	transition: background-color .5s; /*animation time/seconds*/
 }
-
 section p#hover:hover {
 	background-color: rgba(0, 0, 0,.7); /*alpha/transparency 30% opaque/70% transparent*/
 	color: #fff; /*white*/
 }
-
 section ul#expand{
 	display:none;
 }
-
 section p#hover:hover ~ul#expand {
 	display: block;
 }
@@ -292,7 +259,6 @@ section.main .content {
 	background-size: 75px 75px;
 	padding-top: 80px;  /*make room for background size height*/
 }	
-
 section.main aside h3 a {
 	color: #000; /*black*/
 	text-decoration: none;
@@ -300,7 +266,6 @@ section.main aside h3 a {
 section.main aside h3 a:hover {
 	text-decoration: underline; 
 }
-
 section.main aside .content.independent {
 	background-image:  url(../images/pixelllama-right.png);
 }
@@ -318,12 +283,10 @@ section.everyonewelcome {
 	padding-bottom: 30px;
 	color: #fff;
 }
-
 section.everyonewelcome article {
 	padding: 0 20px 0 515px;
 	background: url(../images/jupiterllama.png) no-repeat 0 5px;
 	min-height: 240px;
-
 }
 
 /*whyjoin*/
@@ -334,17 +297,13 @@ section.main .whyjoin p {
 	padding: 5%;
 }
 
-
 /*blockquote*/
 section.inspiration {
 	background-color: #f7f7f7;
 	position: relative;
 	padding: 20px 5%;
 	margin: 0 60px;
-
-
 }
-
 section.inspiration blockquote { 
 	width: 50%;
 	height: 220px;
@@ -355,9 +314,7 @@ section.inspiration blockquote {
 	top: 7%;
 	left: 5%;
 	padding: 30px 20px 0px -410px;
-
 }
-
 section.inspiration div.llamacorn {
 	height: 246px;
 	width: 30%;
@@ -369,7 +326,6 @@ section.inspiration div.llamacorn {
 	display: block;
 }
 
-
 /*thoughtbubble*/
 section.inspiration div.llamacorn:hover ~ div#tooltip{
 	display: block;
@@ -377,7 +333,6 @@ section.inspiration div.llamacorn:hover ~ div#tooltip{
     top: -50%
 
 }
-
 section.inspiration blockquote p {
 	margin: 50px 30px 20px 50px;
 }
@@ -397,13 +352,6 @@ section.inspiration blockquote p.credit  {
 	line-height: 1.3em;
 	position: relative;
 }
-/*************need this?*/
-section.inspiration blockquote .content a {
-	display: inline-block;
-	color: #cc6633;
-	font-weight: 700;
-}
-
 section.inspiration blockquote:before {
 	content: '\201c';
 	color: gray;
@@ -413,7 +361,6 @@ section.inspiration blockquote:before {
 	padding-left: 20px;
 	padding-top: 20px;
 }
-
 section.inspiration blockquote p.quote:after {
 	content: '\201d';
 	color: gray;
@@ -421,62 +368,42 @@ section.inspiration blockquote p.quote:after {
 	font-size: 4.5em;
 	font-family: serif;
 }
-
 section.inspiration blockquote p.credit:before {
 	content: \2014;
 	position: absolute;
 	padding: 50px;
 }
 
-/***************this?*/
-section.inspiration span {
-	float: right;
-	position:absolute;
-	top:20px;
-	left:400px;
-}
-
 /*tooltip*/
 section.inspiration div#tooltip {
-
 	max-width: 200px;		
 	position: absolute;
 	display:none;
-
 }
-
 section.inspiration div.llamacorn:hover + section.inspiration div#tooltip {
-
 	display: block;
 }
-
 
 /*strategies*/
 section.strategies h1 {
 	font-size: 1.6em;
 }
-
 section.strategies h2 {
 	font-size: 1.4em;
 }
-
 section.strategies span {
 	background-color: #ffffe0;
 }
-
 aside.nextmeetup p {
 	font-size:1.2em;
 }
-
 aside.nextmeetup {
 	display:inline-block;
 }
-
 section.main p.fontwrap{
 	padding-left: 10%;
 	padding-right: 10%;
 }
-
 section.main p#smallscreenshow {
 		display:none;
 	}
@@ -498,35 +425,27 @@ footer {
 	margin: 40px 0;
 	color: #fff;
 	padding: 20px 10px, 10px, 10px;
-	
 }
-
-
 footer .content {
 	display: inline;
 	text-decoration: underline;
 }
-
 footer a {
 	margin-left: 30px;
 	color: #fff;
 }
-
 footer a:visited {
 	color: #777;
 }
-
 footer a:hover {
 	color: #000;
 }
 footer div.layout {
 	display:inline-block;
 }
-
 footer aside {
 	display: inline-block;
 }
-
 footer aside div.layout {
 	padding-left:20px;
 }
@@ -536,24 +455,19 @@ span.socialcta {
 	display:inline;
 	float:left;
 }
-
 ul.group {
 	list-style: none;
 	display: inline;
 	padding-left: 0px;
 }
-
 ul.group li {
-	display: inline-block;
-	
+	display: inline-block;	
 }
-
 li a img.icon{
 	width: 50px;
 	border: solid 1px black;
 	border-radius:50px;
 }
-
 footer section.layout {
 	display:inline-block;
 	float: right;
@@ -677,8 +591,6 @@ footer section.layout {
 	section.inspiration aside div.content img {
 		width: 85%
 	}
-
-
 	nav {
 		padding-left: 115px;
 	}
@@ -718,7 +630,6 @@ footer section.layout {
 		top: 115px;
 		left: 50%;
 	}
-
 	header div.hero h1 {
 		font-size: 1.8em;
 	}
@@ -727,7 +638,6 @@ footer section.layout {
 		float: none;
 		text-align: left;
 	} 
-
 	section.main aside div.content {
 		margin: 8px 20px 8px 0;
 		padding: 5px 0px 10px 85px;
@@ -855,6 +765,10 @@ footer section.layout {
 	footer span#copyright {
 		margin-right: 20px;
 	}
+
+	section.main p#smallscreenshow {
+		display:inline-block;
+	}
 }
 
 /*screens below 520px*/
@@ -872,9 +786,7 @@ footer section.layout {
 	section.main p#smallscreenhide {
 		display:none;
 	}
-	section.main p#smallscreenshow {
-		display:inline-block;
-	}
+	
 }
 
 
