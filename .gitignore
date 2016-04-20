@@ -38,3 +38,6 @@ jspm_packages
 public/.DS_Store
 views/.DS_Store
 views/partials/.DS_Store
+
+# Node_Modules
+.node_modules
