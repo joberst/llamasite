@@ -780,7 +780,8 @@ footer section.layout {
 	/*cremove white space on right side of screen ios*/
 	html, body { 
 		width:100%;  
-		overflow:hidden; 
+		overflow-x:hidden; 
+		overflow-y:scroll;
 	}
 
 	header div.hero {
