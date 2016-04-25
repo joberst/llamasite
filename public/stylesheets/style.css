@@ -326,7 +326,7 @@ section.inspiration div.llamacorn {
 	display: block;
 }
 
-/*thoughtbubble*/
+/*uncornthoughtbubble*/
 section.inspiration div.llamacorn:hover ~ div#tooltip{
 	display: block;
 	left: 57%;
@@ -794,7 +794,9 @@ footer section.layout {
 	section.main p.fontwrap{
 		padding: 0 0 0 0;
 	}
-
+	section ul#expand{
+		display:block;
+	}	
 	section.inspiration blockquote p.quote {
 		margin-top: 30px;
 	}
