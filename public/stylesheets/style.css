@@ -787,6 +787,11 @@ footer section.layout {
 	section.main p.fontwrap{
 		padding: 0 0 0 0;
 	}
+
+	section.inspiration blockquote p.quote {
+		margin-top: 40px;
+	}
+	/*social cta*/
 	section.main p#smallscreenhide {
 		display:none;
 	}
