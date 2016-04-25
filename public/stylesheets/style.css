@@ -778,7 +778,11 @@ footer section.layout {
 /*screens below 520px*/
 @media screen and (max-width: 520px) {
 	
-	
+	html, body { 
+		width:100%;  
+		overflow:hidden; 
+	}
+
 	header div.hero {
 
 		top: 115px;
@@ -789,7 +793,7 @@ footer section.layout {
 	}
 
 	section.inspiration blockquote p.quote {
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 	/*social cta*/
 	section.main p#smallscreenhide {
@@ -803,6 +807,8 @@ footer section.layout {
 	aside.findus span.socialcta {
 		display: none;
 	}
+	footer {
+		height: 20%;
 	
 }
 
