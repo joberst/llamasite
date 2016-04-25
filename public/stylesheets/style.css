@@ -777,16 +777,19 @@ footer section.layout {
 
 /*screens below 520px*/
 @media screen and (max-width: 520px) {
-	
+	/*cremove white space on right side of screen ios*/
 	html, body { 
 		width:100%;  
 		overflow:hidden; 
 	}
 
 	header div.hero {
-
 		top: 115px;
 		left: 35%;
+	}
+	header div.hero h1 {
+		font-size: 1.3em;
+		padding-bottom: 20px;
 	}
 	section.main p.fontwrap{
 		padding: 0 0 0 0;
