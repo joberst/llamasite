@@ -561,6 +561,10 @@ footer section.layout {
 		font-size: .95em;
 
 	}
+
+	footer {
+		height: 15%;
+	}
 }
 
 /*screens below 720px*/
@@ -785,6 +789,14 @@ footer section.layout {
 	}
 	section.main p#smallscreenhide {
 		display:none;
+	}
+	section.inspiration blockquote p.credit {
+		padding-left: 40%;
+		margin: 0px 0px;
+	}
+
+	aside.findus span.socialcta {
+		display: none;
 	}
 	
 }
