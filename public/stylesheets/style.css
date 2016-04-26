@@ -795,11 +795,16 @@ footer section.layout {
 	section.main p.fontwrap{
 		padding: 0 0 0 0;
 	}
+
+	section#focalexists {
+		padding-left: 0px;
+	}
+
 	section ul#expand{
 		display:block;
 	}	
 	section.inspiration blockquote p.quote {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	/*social cta*/
 	section.main p#smallscreenhide {
